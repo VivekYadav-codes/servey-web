@@ -1,0 +1,39 @@
+body {
+   background-image: url("image2.jpeg");
+         width: 300px;
+        background:(201, 49, 49);
+         margin: 100px auto;
+         padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+}
+
+.container {
+    background-image: url("image.jpeg");
+         width: 300px;
+        background:(201, 49, 49);
+         margin: 100px auto;
+         padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+       
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    background: rgb(173, 22, 135);
+    color: rgb(249, 246, 248);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(225, 228, 225);
+}

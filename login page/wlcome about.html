@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Survey | Welcome & About</title>
+<link rel="stylesheet" href="welcome about.css" />
+</head>
+<body>
+
+
+<!-- Navigation -->
+<nav>
+<h2>SurveyApp</h2>
+<div>
+<a onclick="showPage('welcome')">Welcome</a>
+<a onclick="showPage('about')">About</a>
+<a href="login.html">login</a>
+<a href="signup.html">signup</a>
+<a href="dashboard.html">dashboard</a>
+</div>
+</nav>
+
+
+<!-- Welcome Page -->
+<section id="welcome" class="page active">
+<h1>Welcome to Our Survey</h1>
+<p>
+Thank you for visiting our survey website.
+Your participation helps us improve research quality.
+</p>
+<button onclick="showPage('about')">Go to About</button>
+</section>
+
+
+<!-- About Page -->
+<section id="about" class="page">
+<h1>About This Survey</h1>
+<p>
+This survey is conducted for academic purposes only.
+All responses are confidential and used for research analysis.
+</p>
+ <form action="dashboard.html">
+  <button onclick="dashboard()">dashboard</button>
+</form>
+</section>
+
+
+<script src="welcome about.js"></script>
+</body>
+</html>
