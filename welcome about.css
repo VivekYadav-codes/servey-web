@@ -1,11 +1,43 @@
 /* welcome about.css */
-nav {
-background: #5e83d9;
-padding: 30px 40px;
-display: flex;
-margin-top: 10px    ;
-justify-content: space-between;
-align-items: center;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 100px;
+  
+}
+.logo {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  padding: 50px 0;
+}
+.menu li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #010607;
+  transition: 0.3s;
+}
+
+
+.menu li a:hover {
+  color: #e3d8df;
 }
 body {
    background-image: url("image2.jpeg");
@@ -14,22 +46,10 @@ body {
          margin: 100px auto;
          padding: 20px;}
 
-nav h2 {
-color: #d4ed5a;
-}
 
 
-nav a {
-color: #b2128a;
-margin-left: 20px;
-text-decoration: none;
-cursor: pointer;
-}
 
 
-nav a:hover {
-background:  wheat;
-}
 
 
 .page {
